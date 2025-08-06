@@ -20,7 +20,7 @@
             class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition">
             Get Early Access
           </button>
-        </form>
+        </[form](https://formspree.io/projects/2798137125764071037/overview)>
 
         <div class="mt-10 text-left">
           <h2 class="text-xl font-semibold mb-2">How it Works</h2>
