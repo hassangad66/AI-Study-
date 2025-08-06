@@ -12,15 +12,15 @@
         <h1 class="text-4xl sm:text-5xl font-bold mb-4 text-blue-700">Study 10x Faster with AI</h1>
         <p class="text-lg sm:text-xl mb-8">Turn any lecture, YouTube video, or PDF into instant quizzes, summaries, and flashcards – in seconds.</p>
 
-        <form class="bg-white p-6 rounded-xl shadow-md" name="waitlist-form">
-          <input type="email" placeholder="Enter your email"
-            class="w-full p-3 rounded-lg border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            required />
-          <button type="submit"
-            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition">
-            Get Early Access
-          </button>
-        </[form](https://formspree.io/projects/2798137125764071037/overview)>
+        <form action="(https://formspree.io/projects/2798137125764071037/overview)" method="POST" class="bg-white p-6 rounded-xl shadow-md">
+  <input type="email" name="email" placeholder="Enter your email"
+    class="w-full p-3 rounded-lg border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
+    required />
+  <button type="submit"
+    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition">
+    Get Early Access
+  </button>
+</form>
 
         <div class="mt-10 text-left">
           <h2 class="text-xl font-semibold mb-2">How it Works</h2>
