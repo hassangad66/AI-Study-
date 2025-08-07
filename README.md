@@ -38,7 +38,7 @@
             <textarea
               name="message"
               class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              rows="5"
+              rows="10"
               placeholder="What are you excited about?"
             ></textarea>
           </label>
