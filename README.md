@@ -34,15 +34,14 @@
           </label>
 
           <label class="block mb-4">
-            <span class="text-gray-700">Your Message (optional)</span>
-            <textarea
-              name="message"
-              class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              rows="3"
-              placeholder="What are you excited about?"
-            ></textarea>
-          </label>
-
+  <span class="text-gray-700 font-medium">Message (Optional)</span>
+  <textarea
+    name="message"
+    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+    rows="4"
+    placeholder="Let us know how we can support your learning goals or any questions you have..."
+  ></textarea>
+</label>
           <!-- Redirect after submission -->
           <input type="hidden" name="_next" value="https://hassangad66.github.io/thanks.html" />
 
