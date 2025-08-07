@@ -86,4 +86,31 @@
 </html>
 
   </body>
+
+
+
+
+
+
+
+
+<body class="bg-gradient-to-b from-blue-50 to-white text-gray-800 dark:from-gray-900 dark:to-black dark:text-gray-100">
+<div class="flex justify-end w-full max-w-2xl mb-4">
+  <button
+    onclick="document.documentElement.classList.toggle('dark')"
+    class="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded shadow"
+  >
+    Toggle Dark Mode
+  </button>
+</div>
+<label class="block mb-4">
+  <span class="text-gray-700 dark:text-gray-300 font-medium">Message (Optional)</span>
+  <textarea
+    name="message"
+    class="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+    rows="4"
+    placeholder="Let us know how we can support your learning goals or any questions you have..."
+  ></textarea>
+</label>
+
 </html>
