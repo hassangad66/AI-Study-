@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -38,7 +38,7 @@
             <textarea
               name="message"
               class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              rows="10"
+              rows="5"
               placeholder="What are you excited about?"
             ></textarea>
           </label>
@@ -81,7 +81,6 @@
     <title>Thank You</title>
   </head>
   <body style="text-align: center; font-family: sans-serif; padding-top: 50px;">
-   <!DOCTYPE html>
     <h1>🎉 Thank you!</h1>
     <p>Your submission has been received. We'll be in touch soon!</p>
     <a href="index.html">← Back to Home</a>
