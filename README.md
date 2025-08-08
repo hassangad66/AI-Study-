@@ -125,4 +125,7 @@
 
 node_modules/.env
 
+cd AI-Study-Buddy
+
+
 
