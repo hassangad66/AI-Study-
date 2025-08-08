@@ -1,0 +1,12 @@
+{
+  "name": "ai-agent-web",
+  "version": "1.0.0",
+  "description": "AI Agent Web App with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
