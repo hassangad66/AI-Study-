@@ -2,121 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Study Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Study Buddy</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-gradient-to-b from-blue-50 to-white text-gray-800 font-sans">
 
-  <!-- Header -->
-  <header class="bg-blue-600 text-white py-6 shadow">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-3xl font-bold">📚 AI Study Assistant</h1>
-      <p class="mt-2">Upload, Summarize, Create Quizzes & Flashcards — Instantly</p>
+  <!-- HEADER -->
+  <header class="py-6 shadow-md bg-white">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-6">
+      <h1 class="text-2xl font-bold text-blue-700">AI Study Buddy</h1>
+      <nav class="space-x-6 text-gray-600 font-medium">
+        <a href="#features" class="hover:text-blue-600">Features</a>
+        <a href="#how-it-works" class="hover:text-blue-600">How it Works</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <main class="max-w-4xl mx-auto p-6 space-y-8">
+  <!-- HERO SECTION -->
+  <section class="text-center py-16 px-6">
+    <h2 class="text-4xl sm:text-5xl font-extrabold text-blue-700 leading-tight">
+      Study Smarter, Not Harder 🚀
+    </h2>
+    <p class="text-lg sm:text-xl text-gray-700 mt-4 max-w-2xl mx-auto">
+      Transform any lecture, YouTube video, or PDF into instant quizzes, summaries, and flashcards – in seconds.
+    </p>
+    <a href="#contact" class="mt-8 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg text-lg shadow hover:bg-blue-700 transition">
+      Get Started
+    </a>
+  </section>
 
-    <!-- Upload Section -->
-    <section class="bg-white p-6 rounded-lg shadow">
-      <h2 class="text-xl font-semibold mb-4">1️⃣ Upload Your Content</h2>
-
-      <!-- PDF Upload -->
-      <label class="block mb-4">
-        <span class="text-gray-700 font-medium">Upload PDF</span>
-        <input
-          type="file"
-          accept="application/pdf"
-          class="mt-1 block w-full border border-gray-300 rounded-md p-2"
-          id="pdfUpload"
-        />
-      </label>
-
-      <!-- YouTube Link -->
-      <label class="block mb-4">
-        <span class="text-gray-700 font-medium">YouTube Link</span>
-        <input
-          type="url"
-          placeholder="https://youtube.com/watch?v=..."
-          class="mt-1 block w-full border border-gray-300 rounded-md p-2"
-          id="youtubeLink"
-        />
-      </label>
-    </section>
-
-    <!-- Feature Selection -->
-    <section class="bg-white p-6 rounded-lg shadow">
-      <h2 class="text-xl font-semibold mb-4">2️⃣ Choose What You Want</h2>
-      <select
-        id="featureSelect"
-        class="block w-full border border-gray-300 rounded-md p-2"
-      >
-        <option value="">-- Select Feature --</option>
-        <option value="summary">Generate Summary</option>
-        <option value="quiz">Create Quiz</option>
-        <option value="flashcards">Make Flashcards</option>
-      </select>
-    </section>
-
-    <!-- User Message (Optional) -->
-    <section class="bg-white p-6 rounded-lg shadow">
-      <label class="block">
-        <span class="text-gray-700 font-medium">Additional Notes (optional)</span>
-        <textarea
-          id="userMessage"
-          class="mt-1 block w-full border border-gray-300 rounded-md p-2"
-          rows="3"
-          placeholder="Any specific instructions for the AI?"
-        ></textarea>
-      </label>
-    </section>
-
-    <!-- Generate Button -->
-    <div class="text-center">
-      <button
-        id="generateBtn"
-        class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold"
-      >
-        🚀 Generate
-      </button>
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-blue-700 text-center mb-10">How It Works</h3>
+      <div class="grid sm:grid-cols-3 gap-8 text-center">
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <span class="text-4xl">📂</span>
+          <h4 class="mt-4 font-semibold text-lg">1. Upload</h4>
+          <p class="text-gray-600 mt-2">Upload a PDF or paste a YouTube link.</p>
+        </div>
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <span class="text-4xl">⚡</span>
+          <h4 class="mt-4 font-semibold text-lg">2. Choose Output</h4>
+          <p class="text-gray-600 mt-2">Pick summaries, quizzes, or flashcards.</p>
+        </div>
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <span class="text-4xl">🎯</span>
+          <h4 class="mt-4 font-semibold text-lg">3. Learn Faster</h4>
+          <p class="text-gray-600 mt-2">Get personalized learning in seconds.</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <!-- Result Section -->
-    <section id="resultSection" class="bg-white p-6 rounded-lg shadow hidden">
-      <h2 class="text-xl font-semibold mb-4">✨ Your Result</h2>
-      <div id="resultContent" class="text-gray-700">Processing...</div>
-    </section>
+  <!-- FEATURES -->
+  <section id="features" class="py-16 bg-blue-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-blue-700 text-center mb-10">Features</h3>
+      <ul class="space-y-4 text-lg text-gray-700">
+        <li>✍️ Smart Summarization</li>
+        <li>📚 Auto-generated Flashcards</li>
+        <li>❓ Interactive Quiz Mode</li>
+        <li>🎧 Voice Explanation (coming soon)</li>
+        <li>💬 Multilingual Support</li>
+      </ul>
+    </div>
+  </section>
 
-  </main>
+  <!-- CONTACT FORM -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-3xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-blue-700 text-center mb-10">Get in Touch</h3>
+      <form
+        action="https://formspree.io/f/mzzvkepl"
+        method="POST"
+        class="space-y-6 bg-gray-50 p-8 rounded-lg shadow-md"
+      >
+        <label class="block">
+          <span class="text-gray-700 font-medium">Your Email</span>
+          <input
+            type="email"
+            name="email"
+            required
+            class="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="you@example.com"
+          />
+        </label>
 
-  <!-- Script -->
-  <script>
-    document.getElementById("generateBtn").addEventListener("click", function() {
-      const feature = document.getElementById("featureSelect").value;
-      const resultSection = document.getElementById("resultSection");
-      const resultContent = document.getElementById("resultContent");
+        <label class="block">
+          <span class="text-gray-700 font-medium">Your Message (optional)</span>
+          <textarea
+            name="message"
+            rows="4"
+            placeholder="Tell us what you're excited about..."
+            class="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          ></textarea>
+        </label>
 
-      if (!feature) {
-        alert("Please select a feature first.");
-        return;
-      }
+        <button
+          type="submit"
+          class="w-full py-3 bg-blue-600 text-white text-lg rounded-lg shadow hover:bg-blue-700 transition"
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
 
-      resultSection.classList.remove("hidden");
-      resultContent.textContent = "⏳ Generating " + feature + "... (demo mode)";
+  <!-- FOOTER -->
+  <footer class="py-6 bg-blue-700 text-white text-center">
+    <p>&copy; 2025 AI Study Buddy. All rights reserved.</p>
+  </footer>
 
-      // Simulate AI delay
-      setTimeout(() => {
-        if (feature === "summary") {
-          resultContent.textContent = "📄 Here's your mock summary: Lorem ipsum dolor sit amet...";
-        } else if (feature === "quiz") {
-          resultContent.textContent = "📝 Sample Quiz:\n1. Question one?\n2. Question two?";
-        } else if (feature === "flashcards") {
-          resultContent.textContent = "💡 Flashcards:\n- Term 1: Definition\n- Term 2: Definition";
-        }
-      }, 1500);
-    });
-  </script>
 </body>
 </html>
