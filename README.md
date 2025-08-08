@@ -123,6 +123,6 @@
 
 
 
-node_modules
-.env
+node_modules/.env
+
 
