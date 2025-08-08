@@ -1,4 +1,0 @@
-mkdir ai-study-buddy
-cd ai-study-buddy
-npm init -y
-npm install express cors body-parser multer pdf-parse dotenv openai
